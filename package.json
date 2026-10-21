@@ -1,0 +1,36 @@
+{
+  "name": "gis-bencana-indonesia",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit -p tsconfig.check.json && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.check.json",
+    "lint": "eslint src --ext .ts,.tsx --max-warnings=0",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "@types/leaflet": "^1.9.12",
+    "@types/node": "^20.16.5",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^9.7.0",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.2.0",
+    "vite": "^5.3.3",
+    "vitest": "^2.0.5"
+  }
+}
