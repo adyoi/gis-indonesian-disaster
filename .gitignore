@@ -6,3 +6,4 @@ tmp_gadm/
 .env
 .vscode
 .idea
+*.tsbuildinfo

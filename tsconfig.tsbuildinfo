@@ -1,1 +1,0 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/vite-env.d.ts","./src/components/agendapanel.tsx","./src/components/charts.tsx","./src/components/datasources.tsx","./src/components/legendpanel.tsx","./src/components/mapview.tsx","./src/data/hazards.ts","./src/lib/bmkg.ts","./src/lib/geo.ts","./src/tests/geo.test.ts"],"errors":true,"version":"5.9.3"}
